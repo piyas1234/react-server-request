@@ -1,0 +1,25 @@
+{
+  "name": "react-server-request",
+  "version": "1.0.0",
+  "description": "it is a simple way to fetch data , get data , put data , delete data from server site using API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyas1234/react-server-request.git"
+  },
+  "keywords": [
+    "react-server-request"
+  ],
+  "author": "piyas talukder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyas1234/react-server-request/issues"
+  },
+  "homepage": "https://github.com/piyas1234/react-server-request#readme",
+  "dependencies": {
+    
+  }
+}
