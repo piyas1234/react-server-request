@@ -42,11 +42,11 @@ _______________________________
 // file name API.js
 import {Request} from 'react-server-request'
 
-const API = new Request('here will be main path')
+export default  new Request('here will be main path')
 
 // this is like  ----->
 // const API = new Request('https://jsonplaceholder.typicode.com')
-module.exports.API = API
+ 
 
 ```
 

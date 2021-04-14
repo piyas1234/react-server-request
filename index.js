@@ -15,7 +15,7 @@ class Request {
 
   async post(apiPath, body) {
     try {
-      const response = await fetch(url + apiPath, {
+      const response = await fetch(this.url + apiPath, {
         method: "post",
         headers: {
           Accept: "application/json",
@@ -23,8 +23,8 @@ class Request {
         },
         body: JSON.stringify(body),
       });
-      const resData = await response.json();
-      return resData;
+
+      return await response;
     } catch (err) {
       console.log(err);
     }
@@ -32,11 +32,11 @@ class Request {
 
   async delete(apiPath) {
     try {
-      const response = await fetch(url + apiPath, {
+      const response = await fetch(this.url + apiPath, {
         method: "DELETE",
       });
-      const resData = await response.json();
-      return resData;
+
+      return await response;
     } catch (err) {
       console.log(err);
     }
@@ -44,16 +44,14 @@ class Request {
 
   async put(apiPath, data) {
     try {
-      const response = await fetch(apiPath, {
+      const response = await fetch(this.url + apiPath, {
         method: "PUT",
         headers: {
           "Content-type": "application/json",
         },
         body: JSON.stringify(data),
       });
-
-      const resData = await response.json();
-      return resData;
+      return await response;
     } catch (err) {
       console.log(err);
     }
