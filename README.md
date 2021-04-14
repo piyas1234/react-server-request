@@ -15,6 +15,7 @@ Using npm:
 
 ```bash
 $ npm i react-server-request
+$ npm i axios-lite
 ```
 
 Using bower:
@@ -41,6 +42,7 @@ _______________________________
 ```js
 // file name API.js
 import {Request} from 'react-server-request'
+import {Request} from 'axios-lite'
 
 export default  new Request('here will be main path')
 

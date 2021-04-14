@@ -1,16 +1,15 @@
 {
-  "name": "react-server-request",
-  "version": "1.1.1",
+  "name": "axios-lite",
+  "version": "1.0.1",
   "description": "it is a simple way to fetch data , get data , put data , delete data from server site using API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/piyas1234/react-server-request.git"
-  },
+  "repository": "git+https://github.com/piyas1234/react-server-request.git",
   "keywords": [
+    "axios",
+    "axios-lite",
     "react-server-request"
   ],
   "author": "piyas talukder",
